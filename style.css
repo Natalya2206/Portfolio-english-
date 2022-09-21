@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to top left, #FFFFE0, #D8BFD8) fixed;
+}
+
+.main img {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 28%;
+    border-radius: 10px;
+}
+
+.main_info {
+    position: absolute;
+    font-family: Comic Sans MS, Comic Sans;
+    top: 13%;
+    right: 33%;
+    color: #3c346e;
+}
+
+.info h4 {
+    font-size: 16px;
+    color:#3c346e;
+}
+
+.info {
+    position: absolute;
+    top: 47%;
+    right: 19%;
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans;
+    font-size: 16px;
+    color: #3c346e;
+}
+
+.separator {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+
+.about_me {
+    position: absolute;
+    top: 55%;
+    left: 21%;
+    text-align: right;
+    font-family: Comic Sans MS, Comic Sans;
+    font-size: 16px;
+    color: #3c346e;
+}
+
+.links {
+    margin-top: 11%;
+    margin-left: 41.5%;
+    word-spacing: 10px;
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.mail {
+    margin-top: 1%;
+    margin-left: 39%;
+    font-family: Comic Sans MS, Comic Sans;
+}
+
+.phone {
+    margin-top: 1%;
+    margin-left: 43%;
+    font-family: Comic Sans MS, Comic Sans;
+}
+
+@media screen and (min-width: 1920px) {
+    .main img {
+        margin-top: 3%;
+        margin-left: 35%;
+    }
+
+    .main_info {
+        top: 13%;
+        right: 36%;
+    }
+
+    .info h4 {
+        margin-top: -35%;
+    }
+
+    .info {
+        top: 47%;
+        right: 26%;
+    }
+
+    .separator {
+        margin-top: 1%;
+        margin-left: 22%;
+    }
+
+    .about_me {
+        top: 35.5%;
+        left: 30%;
+    }
+
+    .links {
+        margin-top: 11%;
+        margin-left: 46%;
+    }
+    
+    .mail {
+        margin-top: 1%;
+        margin-left: 44%;
+    }
+    
+    .phone {
+        margin-top: 1%;
+        margin-left: 47%;
+    }
+}
