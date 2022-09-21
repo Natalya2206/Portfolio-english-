@@ -65,12 +65,12 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.link_slider_js {
+.link_slider_react {
   position: absolute;
   font-size: 18px;
   font-family: Comic Sans MS, Comic Sans;
   left: 48%;
-  top: 60%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -132,12 +132,12 @@ margin-right: 6%;
 
 @media screen and (min-width: 1920px) {
   .slider{
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
     height: 600px;
     margin-bottom: 200px;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 1%;
   }
 
   .slider .item img {
