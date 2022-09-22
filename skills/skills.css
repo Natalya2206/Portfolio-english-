@@ -97,3 +97,51 @@ a {
     }
 
 }
+
+@media screen and (max-width: 720px) {
+    .icons_img_text {
+        margin-left: 17%;
+    }
+
+    .separator {
+        margin-top: -65%;
+    }
+
+    .soft_icons {
+        margin-top: -65%;
+    }
+
+    .soft_icons_text {
+        margin-left: 65%;
+    }
+
+    .links {
+        margin-top: 5%;
+        margin-left: 39%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .icons_img_text {
+        margin-left: 5%;
+    }
+
+    .separator {
+        margin-top: -125%;
+        margin-left: 51%;
+    }
+
+    .soft_icons {
+        margin-top: -125%;
+    }
+
+    .soft_icons_text {
+        margin-left: 57%;
+    }
+
+    .links {
+        margin-top: 7%;
+        margin-left: 33%;
+    }
+    
+}
