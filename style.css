@@ -122,48 +122,50 @@ a {
 @media screen and (max-width: 720px) {
     .main img {
         margin-top: 3%;
-        margin-left: 10%;
+        margin-left: 20%;
     }
 
     .main_info {
-        top: 8%;
-        right: 23%;
+        top: 10%;
+        right: 10%;
     }
 
     .info h4 {
-        margin-top: -55%;
-        margin-left: 30%;
+        margin-top: -10%;
+        margin-left: 35%;
     }
 
     .info {
         top: 47%;
-        right: 26%;
+        right: 15%;
     }
 
-    .separator {
+    div .separator {
         transform: rotate(90deg);
-        margin-top: 57%;
-        margin-right: 50%;
+        margin-top: 52%;
+        margin-left: 55%;
+        width: 50px;
+        height: 50px;
     }
 
     .about_me {
-        top: 55%;
-        left: 16%;
+        top: 87%;
+        left: 30%;
     }
 
     .links {
-        margin-top: 3%;
-        margin-left: 27%;
+        margin-top: 20%;
+        margin-left: 43%;
     }
 
     .mail {
         margin-top: 1%;
-        margin-left: 23%;
+        margin-left: 40%;
     }
     
     .phone {
         margin-top: 1%;
-        margin-left: 28%;
+        margin-left: 45%;
     }
 }
 
@@ -174,12 +176,12 @@ a {
     }
 
     .main_info {
-        top: 50%;
+        top: 45%;
         right: 20%;
     }
 
     .info h4 {
-        margin-top: 60%;
+        margin-top: 45%;
         margin-left: 30%;
     }
 
@@ -188,29 +190,29 @@ a {
         left: 20%;
     }
 
-    .separator {
+    div .separator {
         transform: rotate(90deg);
-        margin-top: 180%;
+        margin-top: 175%;
         margin-right: 35%;
     }
     
     .about_me {
-        top: 160%;
+        top: 140%;
         left: 7%;
     }
 
     .links {
-        margin-top: 20%;
-        margin-left: 25%;
+        margin-top: 30%;
+        margin-left: 28%;
     }
 
     .mail {
         margin-top: 1%;
-        margin-left: 18%;
+        margin-left: 20%;
     }
     
     .phone {
         margin-top: 1%;
-        margin-left: 28%;
+        margin-left: 30%;
     }
 }
