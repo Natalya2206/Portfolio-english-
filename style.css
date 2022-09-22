@@ -118,3 +118,53 @@ a {
         margin-left: 47%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .main img {
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+
+    .main_info {
+        top: 8%;
+        right: 23%;
+    }
+
+    .info h4 {
+        margin-top: -55%;
+        margin-left: 30%;
+    }
+
+    .info {
+        top: 47%;
+        right: 26%;
+    }
+
+    .separator {
+        transform: rotate(90deg);
+        margin-top: 57%;
+        margin-right: 50%;
+    }
+
+    .about_me {
+        top: 55%;
+        left: 16%;
+    }
+
+    .links {
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+    .mail {
+        margin-top: 1%;
+        margin-left: 23%;
+    }
+    
+    .phone {
+        margin-top: 1%;
+        margin-left: 28%;
+    }
+
+
+}
