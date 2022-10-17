@@ -74,6 +74,15 @@ a {
   transform: translate(-50%, -50%);
 }
 
+.link_slider_js {
+  position: absolute;
+  font-size: 18px;
+  font-family: Comic Sans MS, Comic Sans;
+  left: 48%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
 .slider-dots {
 text-align: center;
 margin-top: 1%;
@@ -190,6 +199,10 @@ margin-right: 6%;
     top: 38%;
   }
 
+  .link_slider_js {
+    top: 10%;
+  }
+
 }
 
 @media screen and (max-width:380px) {
@@ -236,4 +249,10 @@ margin-right: 6%;
     top: 39%;
     font-size: 10px;
   } 
+
+  .link_slider_js {
+    top: 10%;
+    font-size: 10px;
+    left: 40%;
+  }
 }
