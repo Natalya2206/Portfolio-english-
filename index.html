@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
@@ -10,54 +9,45 @@
 <body>
     <main> 
         <div class="main">
-            <img width="200" height="280" src="./img/me.jpg" alt="photo">
-             <div class="main_info">
-                <h3>Natalya Larionova, <br>
-                Front-end (junior/trainee)</h3>
-                <p>I'm 24, Russia</p>
+             <div class="main__img">
+                 <img class="main__img-img" src="./img/me.jpg" alt="photo">
              </div>
-             <div class="info">
-                <h4>Education:</h4>
-                <p> 2015-2019-National Research Saratov State University<br>
-                    "Philologist"<br>
-                </p>
-                <p>july-september 2022-Synergy University <br>
-                    "Разработка сайтов: вёрстка CSS и <br>
-                    программирование на языке Javascript"
-                </p>
-                <p>july 2022-date-udemy.com <br>
-                    "Полный курс по Javascript + React - <br>
-                    с нуля до результата"
-                </p>
-                <p>september 2022-date-Innopolis university <br>
-                    "Основы Frontend-разработки"
-                </p>
-             </div>
-             <div class="separator">
-                <img src="./img/Rectangle_6.png" alt="separator">
-             </div>
-             <div class="about_me">
-                <p>
-                    I am studying Front-end and sphere IT.<br>
-                    It was sourse something new and realy<br>
-                    interesting. I enjoy a process of goal. <br>
-                    I love reading, improve my English skill <br>
-                    and I adore traveling.
-                </p>
-             </div> 
+             <div class="main__info">
+                 <div class="main__info-me">  
+                     <h1>Natalya Larionova, <br>
+                        Front-end (junior/trainee)</h1>
+                     <p>I'm 24, Russia</p>
+                 </div>
+                 <div class="main-info-about_me">
+                     <p>
+                        I am studying Front-end and sphere IT.<br>
+                        It was sourse something new and realy<br>
+                        interesting. I enjoy a process of goal. <br>
+                        I love reading, improve my English skill <br>
+                        and I adore traveling.
+                     </p>
+                 </div>
+                 <h2>Skills:</h2>
+                 <div class="main__skills">
+                    <img src="./img/html.png" alt="html">
+                    <img src="./img/css.png" alt="css">
+                    <img src="./img/adaptive layout.png" alt="adaptive layout">
+                    <img src="./img/js.png" alt="js">
+                    <img src="./img/react.png" alt="react">
+                 </div>
+                 <div class="main__link">
+                    <a href="./project/project.html">My projects&#8592;</a>
+                 </div>
+             </div>     
         </div>    
     </main>
-    <footer>
-        <div class="links">
-         <a href="./skills/skills.html">&#8594;Skills</a>
-         <a href="./project/project.html">Project&#8592;</a>
-        </div>
-        <div class="mail">
-            <a href="mailto:buyanowa.natali2010@yandex.ru">buyanowa.natali2010@yandex.ru</a>
-        </div>
-        <div class="phone">
-            <a href="tel:+79042632736">8 (904) 263-27-36</a>
-        </div>
+    <footer class="footer">
+         <div class="footer__mail">
+             <a href="mailto:buyanowa.natali2010@yandex.ru">buyanowa.natali2010@yandex.ru</a>
+         </div>
+         <div class="footer__phone">
+             <a href="tel:+79042632736">8 (904) 263-27-36</a>
+         </div>
     </footer> 
 </body>
 </html>
